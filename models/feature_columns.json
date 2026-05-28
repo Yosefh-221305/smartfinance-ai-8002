@@ -1,0 +1,35 @@
+{
+  "features": [
+    "total_income",
+    "total_expense",
+    "savings_pct",
+    "total_expense_pct",
+    "expense_ratio_makanan",
+    "expense_ratio_transportasi",
+    "expense_ratio_hiburan",
+    "expense_ratio_belanja_online",
+    "expense_ratio_tabungan",
+    "n_overspent_categories",
+    "expense_makanan_minuman",
+    "expense_transportasi",
+    "expense_hiburan",
+    "expense_belanja_online",
+    "expense_tagihan_utilitas",
+    "expense_kesehatan",
+    "expense_pendidikan",
+    "expense_tabungan_investasi",
+    "savings_ratio",
+    "expense_konsumtif",
+    "expense_ratio_konsumtif",
+    "expense_produktif",
+    "expense_ratio_produktif",
+    "is_deficit"
+  ],
+  "labels": {
+    "0": "Hemat",
+    "1": "Normal",
+    "2": "Boros"
+  },
+  "version": "3.0.0",
+  "note": "is_sheet3 dihapus pada v3 — kolom ini hanya valid saat preprocessing Excel, selalu bernilai 0 di production (data leakage)"
+}
